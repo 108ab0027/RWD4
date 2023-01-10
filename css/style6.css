@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: none;
+    height: 73px;
+    background-color: #83978E;
+}
+
+.logo {
+    margin-left: 2%;
+}
+
+.leafLogo {
+    width: 70px;
+    height: 60px;
+}
+
+.navItem {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.navLink {
+    margin-right: 4%;
+}
+
+.navLink1 {
+    margin-right: 2%;
+}
+
+.navLink2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4%;
+    border-bottom: 1px solid #90a29a;
+    width: 150px;
+    height: 45px;
+}
+.navLinkblank{
+    width: 150px;
+    height: 20px;
+} 
+
+.nava, .nava1{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+}
+
+.nav-sublist {
+    position: absolute;
+    background-color: #83978E;
+    padding: 0;
+    width: 150px;
+    display: none;
+    right: 140px;
+}
+
+.navLink1:hover .nav-sublist {
+    display: block;
+}
+.navLink1:hover .nava {
+    background-color: #83978E;
+} 
+
+.nav-sublist .navLink2:hover .nava, .nava:hover, .nava1:hover{
+    color: #2D4263;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+.car {
+    margin: 0 1.5% 0 2%;
+}
+
+.member {
+    margin: 0 3% 0 1.5%;
+}
+
+/* body */
+.user_page {
+    /* height: 100vh; */
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.userInfo {
+    width: 50%;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column; 
+    /* align-items: center; */
+    justify-content: center;
+    padding-bottom: 150px;
+}
+
+.userTitle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.userAccount {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.7)
+}
+
+.signOut {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.7)
+}
+
+.signOut:hover {
+    color: #597066;
+}
+
+.cardhr {
+    border: 0.5px solid #83978E;
+    margin: 1% 0 2% 0;
+}
+
+.userbody {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.userPhoto {
+    width: 100px;
+    height: 100px;
+    margin: 0 50px;
+}
+
+.infop {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    color: rgba(0, 0, 0, 0.7)
+
+}
+
+/* footer */
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    max-width: none;
+    height: 150px;
+    background-color: #83978E;
+    margin-top: 100px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.footerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    margin-left: 30%;
+}
+
+
+.box1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.box2 {
+    margin-top: 10px;
+}
+
+.footerLink {
+    margin: 0 10px;
+}
+
+.footera, .footerp {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footera:hover{
+    color: #2D4263;
+}
+
+.footerIcon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icona {
+    margin: 0 35%;
+}
+
+.fa-instagram, .fa-line, .fa-cart-shopping, .fa-circle-user {
+    color: white;
+}
